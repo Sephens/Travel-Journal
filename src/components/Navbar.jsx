@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/my.css'
 import Logo from '../assets/logo.png'
 
-import {FcPhone} from 'react-icons/fc'
+import {FaPhoneAlt} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {IoLogoWhatsapp} from 'react-icons/io'
 
@@ -16,7 +16,7 @@ function Navbar() {
     </div>
 
     <div className='nav-right'>
-        <FcPhone className='icons' id='phone'/>
+        <FaPhoneAlt className='icons' id='phone'/>
         <HiOutlineMail className='icons' id='email'/>
         <IoLogoWhatsapp className='icons' id='wapp'/>
 
